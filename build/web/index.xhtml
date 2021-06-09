@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Practica NRO 06</title>
+    </h:head>
+    <h:body style="padding: 20%; padding-top: 5%">
+        <h1>Practica NRO 6</h1>
+        <table border="1" align="center">
+            <tr>
+                <th></th>
+                <th>Datos Personales</th>
+            </tr>
+            <tr>
+                <th><h:outputText value="NOMBRE: " /></th>
+                <td><h:outputLabel value="Silvia Yenny Quispe Quispe " /></td>
+            </tr>
+            <tr>               
+                <th><h:outputText value="C.I.: " /></th>
+                <td><h:outputLabel value="9968069 LP " /></td>
+            </tr>
+            <tr>              
+                <th><h:outputText value="R.U.: " /></th>
+                <td><h:outputLabel value="200020890 " /></td>
+            </tr>
+            <tr>              
+                <th><h:outputText value="MATERIA: " /></th>
+                <td><h:outputLabel value="Tecnologias Emergentes II " /></td>
+            </tr>
+        </table>
+        <br>        
+        </br>
+        <ul>
+            <li>
+                <h3><h:outputLabel value=" Formulario de Inscripcion en Curso " /> </h3>
+                <h:form>
+                    <h:commandLink action="Curso" value="Ver Curso" />
+                </h:form>
+            </li>
+            <li>
+                <h3><h:outputLabel value=" Formulario de Registro de Usuarios " /></h3>
+                <h:form>
+                    <h:commandLink action="Usuario" value="Ver Usuarios" />
+                </h:form>
+            </li>
+            <li>
+                <h3><h:outputLabel value=" Formulario de Registro de Productos " /></h3>
+                <h:form>
+                    <h:commandLink action="Producto" value="Ver Productos" />
+                </h:form>
+            </li>
+            <li>
+                <h3><h:outputLabel value=" Formulario de Registro de Libros " /></h3>
+                <h:form>
+                    <h:commandLink action="Libro" value="Ver Libros" />
+                </h:form>
+            </li>
+        </ul>
+          
+    </h:body>
+</html>
+
